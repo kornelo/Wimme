@@ -7,6 +7,7 @@ target 'Wimme' do
 
   # Pods for Wimme
 pod 'Firebase/Core'
+pod 'Firebase/Database'
 
   target 'WimmeTests' do
     inherit! :search_paths

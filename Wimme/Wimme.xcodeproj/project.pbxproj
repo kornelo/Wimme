@@ -7,6 +7,10 @@
 	objects = {
 
 /* Begin PBXBuildFile section */
+		0910E8E9A60E3BEF6D74CB43 /* Pods_WimmeUITests.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = D6F924CC5BA552223C350E4C /* Pods_WimmeUITests.framework */; };
+		184CC775540628A8C4D5A681 /* Pods_Wimme.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = A158D593C768B746C8C40EE7 /* Pods_Wimme.framework */; };
+		551712D21FB7094F001E99D3 /* GoogleService-Info.plist in Resources */ = {isa = PBXBuildFile; fileRef = 551712D11FB7094E001E99D3 /* GoogleService-Info.plist */; };
+		9A9F6544C002BA401CBB2757 /* Pods_WimmeTests.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 64AABCF22955D848EA1FBAF4 /* Pods_WimmeTests.framework */; };
 		B8975D2F1FB6F70300FC25E6 /* AppDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = B8975D2E1FB6F70300FC25E6 /* AppDelegate.swift */; };
 		B8975D311FB6F70300FC25E6 /* ViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = B8975D301FB6F70300FC25E6 /* ViewController.swift */; };
 		B8975D341FB6F70300FC25E6 /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = B8975D321FB6F70300FC25E6 /* Main.storyboard */; };
@@ -34,6 +38,14 @@
 /* End PBXContainerItemProxy section */
 
 /* Begin PBXFileReference section */
+		03C452058C9155535B5A3537 /* Pods-WimmeUITests.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-WimmeUITests.release.xcconfig"; path = "Pods/Target Support Files/Pods-WimmeUITests/Pods-WimmeUITests.release.xcconfig"; sourceTree = "<group>"; };
+		0E03D16110744BC1A45026D4 /* Pods-Wimme.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-Wimme.release.xcconfig"; path = "Pods/Target Support Files/Pods-Wimme/Pods-Wimme.release.xcconfig"; sourceTree = "<group>"; };
+		41FCFEDE7652F2B7F0584A87 /* Pods-Wimme.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-Wimme.debug.xcconfig"; path = "Pods/Target Support Files/Pods-Wimme/Pods-Wimme.debug.xcconfig"; sourceTree = "<group>"; };
+		47CB30C25CD022C76E126376 /* Pods-WimmeUITests.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-WimmeUITests.debug.xcconfig"; path = "Pods/Target Support Files/Pods-WimmeUITests/Pods-WimmeUITests.debug.xcconfig"; sourceTree = "<group>"; };
+		551712D11FB7094E001E99D3 /* GoogleService-Info.plist */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text.plist.xml; path = "GoogleService-Info.plist"; sourceTree = "<group>"; };
+		64AABCF22955D848EA1FBAF4 /* Pods_WimmeTests.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; path = Pods_WimmeTests.framework; sourceTree = BUILT_PRODUCTS_DIR; };
+		A158D593C768B746C8C40EE7 /* Pods_Wimme.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; path = Pods_Wimme.framework; sourceTree = BUILT_PRODUCTS_DIR; };
+		B11A45E0EE7666498B5D12F1 /* Pods-WimmeTests.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-WimmeTests.debug.xcconfig"; path = "Pods/Target Support Files/Pods-WimmeTests/Pods-WimmeTests.debug.xcconfig"; sourceTree = "<group>"; };
 		B8975D2B1FB6F70300FC25E6 /* Wimme.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = Wimme.app; sourceTree = BUILT_PRODUCTS_DIR; };
 		B8975D2E1FB6F70300FC25E6 /* AppDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppDelegate.swift; sourceTree = "<group>"; };
 		B8975D301FB6F70300FC25E6 /* ViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ViewController.swift; sourceTree = "<group>"; };
@@ -47,6 +59,8 @@
 		B8975D4A1FB6F70300FC25E6 /* WimmeUITests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = WimmeUITests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
 		B8975D4E1FB6F70300FC25E6 /* WimmeUITests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = WimmeUITests.swift; sourceTree = "<group>"; };
 		B8975D501FB6F70300FC25E6 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		D6F924CC5BA552223C350E4C /* Pods_WimmeUITests.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; path = Pods_WimmeUITests.framework; sourceTree = BUILT_PRODUCTS_DIR; };
+		E87237D80259645A0542D0DA /* Pods-WimmeTests.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-WimmeTests.release.xcconfig"; path = "Pods/Target Support Files/Pods-WimmeTests/Pods-WimmeTests.release.xcconfig"; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -54,6 +68,7 @@
 			isa = PBXFrameworksBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				184CC775540628A8C4D5A681 /* Pods_Wimme.framework in Frameworks */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -61,6 +76,7 @@
 			isa = PBXFrameworksBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				9A9F6544C002BA401CBB2757 /* Pods_WimmeTests.framework in Frameworks */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -68,12 +84,23 @@
 			isa = PBXFrameworksBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				0910E8E9A60E3BEF6D74CB43 /* Pods_WimmeUITests.framework in Frameworks */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
 /* End PBXFrameworksBuildPhase section */
 
 /* Begin PBXGroup section */
+		93E73588E3D3339F8160236C /* Frameworks */ = {
+			isa = PBXGroup;
+			children = (
+				A158D593C768B746C8C40EE7 /* Pods_Wimme.framework */,
+				64AABCF22955D848EA1FBAF4 /* Pods_WimmeTests.framework */,
+				D6F924CC5BA552223C350E4C /* Pods_WimmeUITests.framework */,
+			);
+			name = Frameworks;
+			sourceTree = "<group>";
+		};
 		B8975D221FB6F70200FC25E6 = {
 			isa = PBXGroup;
 			children = (
@@ -81,6 +108,8 @@
 				B8975D421FB6F70300FC25E6 /* WimmeTests */,
 				B8975D4D1FB6F70300FC25E6 /* WimmeUITests */,
 				B8975D2C1FB6F70300FC25E6 /* Products */,
+				F4AB2E4B331A6FC23E85E4BD /* Pods */,
+				93E73588E3D3339F8160236C /* Frameworks */,
 			);
 			sourceTree = "<group>";
 		};
@@ -103,6 +132,7 @@
 				B8975D351FB6F70300FC25E6 /* Assets.xcassets */,
 				B8975D371FB6F70300FC25E6 /* LaunchScreen.storyboard */,
 				B8975D3A1FB6F70300FC25E6 /* Info.plist */,
+				551712D11FB7094E001E99D3 /* GoogleService-Info.plist */,
 			);
 			path = Wimme;
 			sourceTree = "<group>";
@@ -125,6 +155,19 @@
 			path = WimmeUITests;
 			sourceTree = "<group>";
 		};
+		F4AB2E4B331A6FC23E85E4BD /* Pods */ = {
+			isa = PBXGroup;
+			children = (
+				41FCFEDE7652F2B7F0584A87 /* Pods-Wimme.debug.xcconfig */,
+				0E03D16110744BC1A45026D4 /* Pods-Wimme.release.xcconfig */,
+				B11A45E0EE7666498B5D12F1 /* Pods-WimmeTests.debug.xcconfig */,
+				E87237D80259645A0542D0DA /* Pods-WimmeTests.release.xcconfig */,
+				47CB30C25CD022C76E126376 /* Pods-WimmeUITests.debug.xcconfig */,
+				03C452058C9155535B5A3537 /* Pods-WimmeUITests.release.xcconfig */,
+			);
+			name = Pods;
+			sourceTree = "<group>";
+		};
 /* End PBXGroup section */
 
 /* Begin PBXNativeTarget section */
@@ -132,9 +175,12 @@
 			isa = PBXNativeTarget;
 			buildConfigurationList = B8975D531FB6F70300FC25E6 /* Build configuration list for PBXNativeTarget "Wimme" */;
 			buildPhases = (
+				1A62578D540EC06DBA2D70F8 /* [CP] Check Pods Manifest.lock */,
 				B8975D271FB6F70300FC25E6 /* Sources */,
 				B8975D281FB6F70300FC25E6 /* Frameworks */,
 				B8975D291FB6F70300FC25E6 /* Resources */,
+				0C1A00D9D64CEEF08C8AD0D5 /* [CP] Embed Pods Frameworks */,
+				3B015DC6C61E81AD96875451 /* [CP] Copy Pods Resources */,
 			);
 			buildRules = (
 			);
@@ -149,9 +195,12 @@
 			isa = PBXNativeTarget;
 			buildConfigurationList = B8975D561FB6F70300FC25E6 /* Build configuration list for PBXNativeTarget "WimmeTests" */;
 			buildPhases = (
+				CBC2DDA5621F9D18CAB90767 /* [CP] Check Pods Manifest.lock */,
 				B8975D3B1FB6F70300FC25E6 /* Sources */,
 				B8975D3C1FB6F70300FC25E6 /* Frameworks */,
 				B8975D3D1FB6F70300FC25E6 /* Resources */,
+				9B997C9CC745270782D2CBF6 /* [CP] Embed Pods Frameworks */,
+				DC292FA928DBCF854A12A35E /* [CP] Copy Pods Resources */,
 			);
 			buildRules = (
 			);
@@ -167,9 +216,12 @@
 			isa = PBXNativeTarget;
 			buildConfigurationList = B8975D591FB6F70300FC25E6 /* Build configuration list for PBXNativeTarget "WimmeUITests" */;
 			buildPhases = (
+				A0BEF859C049D2118335BBAB /* [CP] Check Pods Manifest.lock */,
 				B8975D461FB6F70300FC25E6 /* Sources */,
 				B8975D471FB6F70300FC25E6 /* Frameworks */,
 				B8975D481FB6F70300FC25E6 /* Resources */,
+				345184DBBF1B978863E2712E /* [CP] Embed Pods Frameworks */,
+				3C706D55FEF61A7211C68997 /* [CP] Copy Pods Resources */,
 			);
 			buildRules = (
 			);
@@ -233,6 +285,7 @@
 			buildActionMask = 2147483647;
 			files = (
 				B8975D391FB6F70300FC25E6 /* LaunchScreen.storyboard in Resources */,
+				551712D21FB7094F001E99D3 /* GoogleService-Info.plist in Resources */,
 				B8975D361FB6F70300FC25E6 /* Assets.xcassets in Resources */,
 				B8975D341FB6F70300FC25E6 /* Main.storyboard in Resources */,
 			);
@@ -253,6 +306,158 @@
 			runOnlyForDeploymentPostprocessing = 0;
 		};
 /* End PBXResourcesBuildPhase section */
+
+/* Begin PBXShellScriptBuildPhase section */
+		0C1A00D9D64CEEF08C8AD0D5 /* [CP] Embed Pods Frameworks */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputPaths = (
+				"${SRCROOT}/Pods/Target Support Files/Pods-Wimme/Pods-Wimme-frameworks.sh",
+				"${BUILT_PRODUCTS_DIR}/GoogleToolboxForMac/GoogleToolboxForMac.framework",
+				"${BUILT_PRODUCTS_DIR}/nanopb/nanopb.framework",
+			);
+			name = "[CP] Embed Pods Frameworks";
+			outputPaths = (
+				"${TARGET_BUILD_DIR}/${FRAMEWORKS_FOLDER_PATH}/GoogleToolboxForMac.framework",
+				"${TARGET_BUILD_DIR}/${FRAMEWORKS_FOLDER_PATH}/nanopb.framework",
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "\"${SRCROOT}/Pods/Target Support Files/Pods-Wimme/Pods-Wimme-frameworks.sh\"\n";
+			showEnvVarsInLog = 0;
+		};
+		1A62578D540EC06DBA2D70F8 /* [CP] Check Pods Manifest.lock */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputPaths = (
+				"${PODS_PODFILE_DIR_PATH}/Podfile.lock",
+				"${PODS_ROOT}/Manifest.lock",
+			);
+			name = "[CP] Check Pods Manifest.lock";
+			outputPaths = (
+				"$(DERIVED_FILE_DIR)/Pods-Wimme-checkManifestLockResult.txt",
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "diff \"${PODS_PODFILE_DIR_PATH}/Podfile.lock\" \"${PODS_ROOT}/Manifest.lock\" > /dev/null\nif [ $? != 0 ] ; then\n    # print error to STDERR\n    echo \"error: The sandbox is not in sync with the Podfile.lock. Run 'pod install' or update your CocoaPods installation.\" >&2\n    exit 1\nfi\n# This output is used by Xcode 'outputs' to avoid re-running this script phase.\necho \"SUCCESS\" > \"${SCRIPT_OUTPUT_FILE_0}\"\n";
+			showEnvVarsInLog = 0;
+		};
+		345184DBBF1B978863E2712E /* [CP] Embed Pods Frameworks */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputPaths = (
+			);
+			name = "[CP] Embed Pods Frameworks";
+			outputPaths = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "\"${SRCROOT}/Pods/Target Support Files/Pods-WimmeUITests/Pods-WimmeUITests-frameworks.sh\"\n";
+			showEnvVarsInLog = 0;
+		};
+		3B015DC6C61E81AD96875451 /* [CP] Copy Pods Resources */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputPaths = (
+			);
+			name = "[CP] Copy Pods Resources";
+			outputPaths = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "\"${SRCROOT}/Pods/Target Support Files/Pods-Wimme/Pods-Wimme-resources.sh\"\n";
+			showEnvVarsInLog = 0;
+		};
+		3C706D55FEF61A7211C68997 /* [CP] Copy Pods Resources */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputPaths = (
+			);
+			name = "[CP] Copy Pods Resources";
+			outputPaths = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "\"${SRCROOT}/Pods/Target Support Files/Pods-WimmeUITests/Pods-WimmeUITests-resources.sh\"\n";
+			showEnvVarsInLog = 0;
+		};
+		9B997C9CC745270782D2CBF6 /* [CP] Embed Pods Frameworks */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputPaths = (
+			);
+			name = "[CP] Embed Pods Frameworks";
+			outputPaths = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "\"${SRCROOT}/Pods/Target Support Files/Pods-WimmeTests/Pods-WimmeTests-frameworks.sh\"\n";
+			showEnvVarsInLog = 0;
+		};
+		A0BEF859C049D2118335BBAB /* [CP] Check Pods Manifest.lock */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputPaths = (
+				"${PODS_PODFILE_DIR_PATH}/Podfile.lock",
+				"${PODS_ROOT}/Manifest.lock",
+			);
+			name = "[CP] Check Pods Manifest.lock";
+			outputPaths = (
+				"$(DERIVED_FILE_DIR)/Pods-WimmeUITests-checkManifestLockResult.txt",
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "diff \"${PODS_PODFILE_DIR_PATH}/Podfile.lock\" \"${PODS_ROOT}/Manifest.lock\" > /dev/null\nif [ $? != 0 ] ; then\n    # print error to STDERR\n    echo \"error: The sandbox is not in sync with the Podfile.lock. Run 'pod install' or update your CocoaPods installation.\" >&2\n    exit 1\nfi\n# This output is used by Xcode 'outputs' to avoid re-running this script phase.\necho \"SUCCESS\" > \"${SCRIPT_OUTPUT_FILE_0}\"\n";
+			showEnvVarsInLog = 0;
+		};
+		CBC2DDA5621F9D18CAB90767 /* [CP] Check Pods Manifest.lock */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputPaths = (
+				"${PODS_PODFILE_DIR_PATH}/Podfile.lock",
+				"${PODS_ROOT}/Manifest.lock",
+			);
+			name = "[CP] Check Pods Manifest.lock";
+			outputPaths = (
+				"$(DERIVED_FILE_DIR)/Pods-WimmeTests-checkManifestLockResult.txt",
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "diff \"${PODS_PODFILE_DIR_PATH}/Podfile.lock\" \"${PODS_ROOT}/Manifest.lock\" > /dev/null\nif [ $? != 0 ] ; then\n    # print error to STDERR\n    echo \"error: The sandbox is not in sync with the Podfile.lock. Run 'pod install' or update your CocoaPods installation.\" >&2\n    exit 1\nfi\n# This output is used by Xcode 'outputs' to avoid re-running this script phase.\necho \"SUCCESS\" > \"${SCRIPT_OUTPUT_FILE_0}\"\n";
+			showEnvVarsInLog = 0;
+		};
+		DC292FA928DBCF854A12A35E /* [CP] Copy Pods Resources */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputPaths = (
+			);
+			name = "[CP] Copy Pods Resources";
+			outputPaths = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "\"${SRCROOT}/Pods/Target Support Files/Pods-WimmeTests/Pods-WimmeTests-resources.sh\"\n";
+			showEnvVarsInLog = 0;
+		};
+/* End PBXShellScriptBuildPhase section */
 
 /* Begin PBXSourcesBuildPhase section */
 		B8975D271FB6F70300FC25E6 /* Sources */ = {
@@ -424,6 +629,7 @@
 		};
 		B8975D541FB6F70300FC25E6 /* Debug */ = {
 			isa = XCBuildConfiguration;
+			baseConfigurationReference = 41FCFEDE7652F2B7F0584A87 /* Pods-Wimme.debug.xcconfig */;
 			buildSettings = {
 				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
 				CODE_SIGN_STYLE = Automatic;
@@ -438,6 +644,7 @@
 		};
 		B8975D551FB6F70300FC25E6 /* Release */ = {
 			isa = XCBuildConfiguration;
+			baseConfigurationReference = 0E03D16110744BC1A45026D4 /* Pods-Wimme.release.xcconfig */;
 			buildSettings = {
 				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
 				CODE_SIGN_STYLE = Automatic;
@@ -452,6 +659,7 @@
 		};
 		B8975D571FB6F70300FC25E6 /* Debug */ = {
 			isa = XCBuildConfiguration;
+			baseConfigurationReference = B11A45E0EE7666498B5D12F1 /* Pods-WimmeTests.debug.xcconfig */;
 			buildSettings = {
 				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
 				BUNDLE_LOADER = "$(TEST_HOST)";
@@ -468,6 +676,7 @@
 		};
 		B8975D581FB6F70300FC25E6 /* Release */ = {
 			isa = XCBuildConfiguration;
+			baseConfigurationReference = E87237D80259645A0542D0DA /* Pods-WimmeTests.release.xcconfig */;
 			buildSettings = {
 				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
 				BUNDLE_LOADER = "$(TEST_HOST)";
@@ -484,6 +693,7 @@
 		};
 		B8975D5A1FB6F70300FC25E6 /* Debug */ = {
 			isa = XCBuildConfiguration;
+			baseConfigurationReference = 47CB30C25CD022C76E126376 /* Pods-WimmeUITests.debug.xcconfig */;
 			buildSettings = {
 				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
 				CODE_SIGN_STYLE = Automatic;
@@ -499,6 +709,7 @@
 		};
 		B8975D5B1FB6F70300FC25E6 /* Release */ = {
 			isa = XCBuildConfiguration;
+			baseConfigurationReference = 03C452058C9155535B5A3537 /* Pods-WimmeUITests.release.xcconfig */;
 			buildSettings = {
 				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
 				CODE_SIGN_STYLE = Automatic;

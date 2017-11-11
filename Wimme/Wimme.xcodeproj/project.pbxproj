@@ -114,6 +114,15 @@
 			path = Structs;
 			sourceTree = "<group>";
 		};
+		5533372B1FB749BE007AF61F /* Classes */ = {
+			isa = PBXGroup;
+			children = (
+				55DAE8671FB714D00084DA7C /* RegisterDbInput.swift */,
+				5533371F1FB72AAE007AF61F /* EventsDatabase.swift */,
+			);
+			path = Classes;
+			sourceTree = "<group>";
+		};
 		93E73588E3D3339F8160236C /* Frameworks */ = {
 			isa = PBXGroup;
 			children = (
@@ -149,6 +158,7 @@
 		B8975D2D1FB6F70300FC25E6 /* Wimme */ = {
 			isa = PBXGroup;
 			children = (
+				5533372B1FB749BE007AF61F /* Classes */,
 				553337221FB72CC7007AF61F /* Structs */,
 				B8975D2E1FB6F70300FC25E6 /* AppDelegate.swift */,
 				B8975D301FB6F70300FC25E6 /* ViewController.swift */,
@@ -157,8 +167,6 @@
 				B8975D371FB6F70300FC25E6 /* LaunchScreen.storyboard */,
 				B8975D3A1FB6F70300FC25E6 /* Info.plist */,
 				551712D11FB7094E001E99D3 /* GoogleService-Info.plist */,
-				55DAE8671FB714D00084DA7C /* RegisterDbInput.swift */,
-				5533371F1FB72AAE007AF61F /* EventsDatabase.swift */,
 			);
 			path = Wimme;
 			sourceTree = "<group>";

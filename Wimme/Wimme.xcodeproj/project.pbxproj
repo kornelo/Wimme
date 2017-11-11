@@ -18,7 +18,6 @@
 		55DAE8681FB714D00084DA7C /* RegisterDbInput.swift in Sources */ = {isa = PBXBuildFile; fileRef = 55DAE8671FB714D00084DA7C /* RegisterDbInput.swift */; };
 		9A9F6544C002BA401CBB2757 /* Pods_WimmeTests.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 64AABCF22955D848EA1FBAF4 /* Pods_WimmeTests.framework */; };
 		B8975D2F1FB6F70300FC25E6 /* AppDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = B8975D2E1FB6F70300FC25E6 /* AppDelegate.swift */; };
-		B8975D311FB6F70300FC25E6 /* ViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = B8975D301FB6F70300FC25E6 /* ViewController.swift */; };
 		B8975D341FB6F70300FC25E6 /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = B8975D321FB6F70300FC25E6 /* Main.storyboard */; };
 		B8975D361FB6F70300FC25E6 /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = B8975D351FB6F70300FC25E6 /* Assets.xcassets */; };
 		B8975D391FB6F70300FC25E6 /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = B8975D371FB6F70300FC25E6 /* LaunchScreen.storyboard */; };
@@ -60,7 +59,6 @@
 		B11A45E0EE7666498B5D12F1 /* Pods-WimmeTests.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-WimmeTests.debug.xcconfig"; path = "Pods/Target Support Files/Pods-WimmeTests/Pods-WimmeTests.debug.xcconfig"; sourceTree = "<group>"; };
 		B8975D2B1FB6F70300FC25E6 /* Wimme.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = Wimme.app; sourceTree = BUILT_PRODUCTS_DIR; };
 		B8975D2E1FB6F70300FC25E6 /* AppDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppDelegate.swift; sourceTree = "<group>"; };
-		B8975D301FB6F70300FC25E6 /* ViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ViewController.swift; sourceTree = "<group>"; };
 		B8975D331FB6F70300FC25E6 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/Main.storyboard; sourceTree = "<group>"; };
 		B8975D351FB6F70300FC25E6 /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
 		B8975D381FB6F70300FC25E6 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/LaunchScreen.storyboard; sourceTree = "<group>"; };
@@ -161,7 +159,6 @@
 				5533372B1FB749BE007AF61F /* Classes */,
 				553337221FB72CC7007AF61F /* Structs */,
 				B8975D2E1FB6F70300FC25E6 /* AppDelegate.swift */,
-				B8975D301FB6F70300FC25E6 /* ViewController.swift */,
 				B8975D321FB6F70300FC25E6 /* Main.storyboard */,
 				B8975D351FB6F70300FC25E6 /* Assets.xcassets */,
 				B8975D371FB6F70300FC25E6 /* LaunchScreen.storyboard */,
@@ -510,7 +507,6 @@
 				553337241FB72CFE007AF61F /* EventProperties.swift in Sources */,
 				553337281FB733E2007AF61F /* Profile.swift in Sources */,
 				553337201FB72AAE007AF61F /* EventsDatabase.swift in Sources */,
-				B8975D311FB6F70300FC25E6 /* ViewController.swift in Sources */,
 				B8975D2F1FB6F70300FC25E6 /* AppDelegate.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;

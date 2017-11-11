@@ -21,11 +21,11 @@ class TabBarView: UITabBarController {
         var tabAddEvent: UIViewController
     
         let storyboard = UIStoryboard(name: "Main", bundle: Bundle.main)
-        let mainView : MainScreenVC  = storyboard.instantiateViewController(withIdentifier: "MainView") as! MainScreenVC
-        let search : SearchEventVC  = storyboard.instantiateViewController(withIdentifier: "Search") as! SearchEventVC
-        let profile : ProfileScreenVC  = storyboard.instantiateViewController(withIdentifier: "Profile") as! ProfileScreenVC
-        let setting : SettingsVC  = storyboard.instantiateViewController(withIdentifier: "Setting") as! SettingsVC
-        let addEvent : AddEventVC  = storyboard.instantiateViewController(withIdentifier: "AddEvent") as! AddEventVC
+        let mainView : MainScreenNC  = storyboard.instantiateViewController(withIdentifier: "MainView") as! MainScreenNC
+        let search : SearchEventNC  = storyboard.instantiateViewController(withIdentifier: "Search") as! SearchEventNC
+        let profile : ProfileNC  = storyboard.instantiateViewController(withIdentifier: "Profile") as! ProfileNC
+        let setting : SettingsNC  = storyboard.instantiateViewController(withIdentifier: "Setting") as! SettingsNC
+        let addEvent : AddEventNC  = storyboard.instantiateViewController(withIdentifier: "AddEvent") as! AddEventNC
         
         tabMainView = mainView
         tabMainView.title = "MainView"

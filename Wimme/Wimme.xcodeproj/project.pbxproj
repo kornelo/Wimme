@@ -10,6 +10,8 @@
 		0910E8E9A60E3BEF6D74CB43 /* Pods_WimmeUITests.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = D6F924CC5BA552223C350E4C /* Pods_WimmeUITests.framework */; };
 		184CC775540628A8C4D5A681 /* Pods_Wimme.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = A158D593C768B746C8C40EE7 /* Pods_Wimme.framework */; };
 		551712D21FB7094F001E99D3 /* GoogleService-Info.plist in Resources */ = {isa = PBXBuildFile; fileRef = 551712D11FB7094E001E99D3 /* GoogleService-Info.plist */; };
+		553337201FB72AAE007AF61F /* EventsDatabase.swift in Sources */ = {isa = PBXBuildFile; fileRef = 5533371F1FB72AAE007AF61F /* EventsDatabase.swift */; };
+		553337241FB72CFE007AF61F /* Category.swift in Sources */ = {isa = PBXBuildFile; fileRef = 553337231FB72CFE007AF61F /* Category.swift */; };
 		55DAE8681FB714D00084DA7C /* RegisterDbInput.swift in Sources */ = {isa = PBXBuildFile; fileRef = 55DAE8671FB714D00084DA7C /* RegisterDbInput.swift */; };
 		9A9F6544C002BA401CBB2757 /* Pods_WimmeTests.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 64AABCF22955D848EA1FBAF4 /* Pods_WimmeTests.framework */; };
 		B8975D2F1FB6F70300FC25E6 /* AppDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = B8975D2E1FB6F70300FC25E6 /* AppDelegate.swift */; };
@@ -44,6 +46,8 @@
 		41FCFEDE7652F2B7F0584A87 /* Pods-Wimme.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-Wimme.debug.xcconfig"; path = "Pods/Target Support Files/Pods-Wimme/Pods-Wimme.debug.xcconfig"; sourceTree = "<group>"; };
 		47CB30C25CD022C76E126376 /* Pods-WimmeUITests.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-WimmeUITests.debug.xcconfig"; path = "Pods/Target Support Files/Pods-WimmeUITests/Pods-WimmeUITests.debug.xcconfig"; sourceTree = "<group>"; };
 		551712D11FB7094E001E99D3 /* GoogleService-Info.plist */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text.plist.xml; path = "GoogleService-Info.plist"; sourceTree = "<group>"; };
+		5533371F1FB72AAE007AF61F /* EventsDatabase.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = EventsDatabase.swift; sourceTree = "<group>"; };
+		553337231FB72CFE007AF61F /* Category.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Category.swift; sourceTree = "<group>"; };
 		55DAE8671FB714D00084DA7C /* RegisterDbInput.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = RegisterDbInput.swift; sourceTree = "<group>"; };
 		64AABCF22955D848EA1FBAF4 /* Pods_WimmeTests.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; path = Pods_WimmeTests.framework; sourceTree = BUILT_PRODUCTS_DIR; };
 		A158D593C768B746C8C40EE7 /* Pods_Wimme.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; path = Pods_Wimme.framework; sourceTree = BUILT_PRODUCTS_DIR; };
@@ -93,6 +97,14 @@
 /* End PBXFrameworksBuildPhase section */
 
 /* Begin PBXGroup section */
+		553337221FB72CC7007AF61F /* EventsCategories */ = {
+			isa = PBXGroup;
+			children = (
+				553337231FB72CFE007AF61F /* Category.swift */,
+			);
+			path = EventsCategories;
+			sourceTree = "<group>";
+		};
 		93E73588E3D3339F8160236C /* Frameworks */ = {
 			isa = PBXGroup;
 			children = (
@@ -128,6 +140,7 @@
 		B8975D2D1FB6F70300FC25E6 /* Wimme */ = {
 			isa = PBXGroup;
 			children = (
+				553337221FB72CC7007AF61F /* EventsCategories */,
 				B8975D2E1FB6F70300FC25E6 /* AppDelegate.swift */,
 				B8975D301FB6F70300FC25E6 /* ViewController.swift */,
 				B8975D321FB6F70300FC25E6 /* Main.storyboard */,
@@ -136,6 +149,7 @@
 				B8975D3A1FB6F70300FC25E6 /* Info.plist */,
 				551712D11FB7094E001E99D3 /* GoogleService-Info.plist */,
 				55DAE8671FB714D00084DA7C /* RegisterDbInput.swift */,
+				5533371F1FB72AAE007AF61F /* EventsDatabase.swift */,
 			);
 			path = Wimme;
 			sourceTree = "<group>";
@@ -470,6 +484,8 @@
 			buildActionMask = 2147483647;
 			files = (
 				55DAE8681FB714D00084DA7C /* RegisterDbInput.swift in Sources */,
+				553337241FB72CFE007AF61F /* Category.swift in Sources */,
+				553337201FB72AAE007AF61F /* EventsDatabase.swift in Sources */,
 				B8975D311FB6F70300FC25E6 /* ViewController.swift in Sources */,
 				B8975D2F1FB6F70300FC25E6 /* AppDelegate.swift in Sources */,
 			);
@@ -642,6 +658,7 @@
 				CODE_SIGN_STYLE = Automatic;
 				DEVELOPMENT_TEAM = NGH34MU357;
 				INFOPLIST_FILE = Wimme/Info.plist;
+				IPHONEOS_DEPLOYMENT_TARGET = 11.1;
 				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
 				PRODUCT_BUNDLE_IDENTIFIER = dudesApp.Wimme;
 				PRODUCT_NAME = "$(TARGET_NAME)";
@@ -660,6 +677,7 @@
 				CODE_SIGN_STYLE = Automatic;
 				DEVELOPMENT_TEAM = NGH34MU357;
 				INFOPLIST_FILE = Wimme/Info.plist;
+				IPHONEOS_DEPLOYMENT_TARGET = 11.1;
 				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
 				PRODUCT_BUNDLE_IDENTIFIER = dudesApp.Wimme;
 				PRODUCT_NAME = "$(TARGET_NAME)";

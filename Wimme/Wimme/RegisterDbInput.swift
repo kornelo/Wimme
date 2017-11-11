@@ -11,11 +11,11 @@ import FirebaseDatabase
 
 class RegisterDbInput {
     
-    static func addNewRecord(usrname: String,fname: String, lname: String, email: String, pass: String)
+    static func addNewRecord(usrname: String,fname: String, lname: String, email: String, pass: String, confirmPass: String)
     {
         var ref:DatabaseReference!
         ref = Database.database().reference()
-        if(usrname != "" && fname != "" && lname != "" && email != "" && pass != ""){
+        if(usrname != "" && email != "" && pass != "" && confirmPass != ""){
             let refUserList = ref.child("usersList")
             let refUsers = refUserList.child(usrname).childByAutoId()
             let newUserData = [
@@ -23,7 +23,8 @@ class RegisterDbInput {
                 "firstname": fname,
                 "lastname": lname,
                 "email": email,
-                "password": pass
+                "password": pass,
+                "confirmPass": confirmPass
             ]
             refUsers.setValue(newUserData)
         }

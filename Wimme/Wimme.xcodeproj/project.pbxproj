@@ -9,8 +9,9 @@
 /* Begin PBXBuildFile section */
 		0910E8E9A60E3BEF6D74CB43 /* Pods_WimmeUITests.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = D6F924CC5BA552223C350E4C /* Pods_WimmeUITests.framework */; };
 		184CC775540628A8C4D5A681 /* Pods_Wimme.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = A158D593C768B746C8C40EE7 /* Pods_Wimme.framework */; };
+		550420721FB75C0E0086584B /* Structs in Resources */ = {isa = PBXBuildFile; fileRef = 550420701FB75C0E0086584B /* Structs */; };
+		550420731FB75C0E0086584B /* Classes in Resources */ = {isa = PBXBuildFile; fileRef = 550420711FB75C0E0086584B /* Classes */; };
 		551712D21FB7094F001E99D3 /* GoogleService-Info.plist in Resources */ = {isa = PBXBuildFile; fileRef = 551712D11FB7094E001E99D3 /* GoogleService-Info.plist */; };
-		55DAE8681FB714D00084DA7C /* RegisterDbInput.swift in Sources */ = {isa = PBXBuildFile; fileRef = 55DAE8671FB714D00084DA7C /* RegisterDbInput.swift */; };
 		9A9F6544C002BA401CBB2757 /* Pods_WimmeTests.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 64AABCF22955D848EA1FBAF4 /* Pods_WimmeTests.framework */; };
 		B8975D2F1FB6F70300FC25E6 /* AppDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = B8975D2E1FB6F70300FC25E6 /* AppDelegate.swift */; };
 		B8975D311FB6F70300FC25E6 /* ViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = B8975D301FB6F70300FC25E6 /* ViewController.swift */; };
@@ -43,8 +44,9 @@
 		0E03D16110744BC1A45026D4 /* Pods-Wimme.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-Wimme.release.xcconfig"; path = "Pods/Target Support Files/Pods-Wimme/Pods-Wimme.release.xcconfig"; sourceTree = "<group>"; };
 		41FCFEDE7652F2B7F0584A87 /* Pods-Wimme.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-Wimme.debug.xcconfig"; path = "Pods/Target Support Files/Pods-Wimme/Pods-Wimme.debug.xcconfig"; sourceTree = "<group>"; };
 		47CB30C25CD022C76E126376 /* Pods-WimmeUITests.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-WimmeUITests.debug.xcconfig"; path = "Pods/Target Support Files/Pods-WimmeUITests/Pods-WimmeUITests.debug.xcconfig"; sourceTree = "<group>"; };
+		550420701FB75C0E0086584B /* Structs */ = {isa = PBXFileReference; lastKnownFileType = folder; path = Structs; sourceTree = "<group>"; };
+		550420711FB75C0E0086584B /* Classes */ = {isa = PBXFileReference; lastKnownFileType = folder; path = Classes; sourceTree = "<group>"; };
 		551712D11FB7094E001E99D3 /* GoogleService-Info.plist */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text.plist.xml; path = "GoogleService-Info.plist"; sourceTree = "<group>"; };
-		55DAE8671FB714D00084DA7C /* RegisterDbInput.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = RegisterDbInput.swift; sourceTree = "<group>"; };
 		64AABCF22955D848EA1FBAF4 /* Pods_WimmeTests.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; path = Pods_WimmeTests.framework; sourceTree = BUILT_PRODUCTS_DIR; };
 		A158D593C768B746C8C40EE7 /* Pods_Wimme.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; path = Pods_Wimme.framework; sourceTree = BUILT_PRODUCTS_DIR; };
 		B11A45E0EE7666498B5D12F1 /* Pods-WimmeTests.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-WimmeTests.debug.xcconfig"; path = "Pods/Target Support Files/Pods-WimmeTests/Pods-WimmeTests.debug.xcconfig"; sourceTree = "<group>"; };
@@ -128,6 +130,8 @@
 		B8975D2D1FB6F70300FC25E6 /* Wimme */ = {
 			isa = PBXGroup;
 			children = (
+				550420711FB75C0E0086584B /* Classes */,
+				550420701FB75C0E0086584B /* Structs */,
 				B8975D2E1FB6F70300FC25E6 /* AppDelegate.swift */,
 				B8975D301FB6F70300FC25E6 /* ViewController.swift */,
 				B8975D321FB6F70300FC25E6 /* Main.storyboard */,
@@ -135,7 +139,6 @@
 				B8975D371FB6F70300FC25E6 /* LaunchScreen.storyboard */,
 				B8975D3A1FB6F70300FC25E6 /* Info.plist */,
 				551712D11FB7094E001E99D3 /* GoogleService-Info.plist */,
-				55DAE8671FB714D00084DA7C /* RegisterDbInput.swift */,
 			);
 			path = Wimme;
 			sourceTree = "<group>";
@@ -290,6 +293,8 @@
 				B8975D391FB6F70300FC25E6 /* LaunchScreen.storyboard in Resources */,
 				551712D21FB7094F001E99D3 /* GoogleService-Info.plist in Resources */,
 				B8975D361FB6F70300FC25E6 /* Assets.xcassets in Resources */,
+				550420731FB75C0E0086584B /* Classes in Resources */,
+				550420721FB75C0E0086584B /* Structs in Resources */,
 				B8975D341FB6F70300FC25E6 /* Main.storyboard in Resources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
@@ -469,7 +474,6 @@
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
-				55DAE8681FB714D00084DA7C /* RegisterDbInput.swift in Sources */,
 				B8975D311FB6F70300FC25E6 /* ViewController.swift in Sources */,
 				B8975D2F1FB6F70300FC25E6 /* AppDelegate.swift in Sources */,
 			);

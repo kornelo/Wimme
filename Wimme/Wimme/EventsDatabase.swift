@@ -11,7 +11,16 @@ import FirebaseDatabase
 
 class EventsDatabase {
     
-    static func addNewEventToFIR(creator: String, date: Date, place: ) {
-        
+    static func addNewEventToFIR(newEvent: EventProperties) {
+        var ref:DatabaseReference!
+        ref = Database.database().reference()
+        let refEventList = ref.child("eventsList").childByAutoId()
+        let newEventData = [
+            "creator": newEvent.creator,
+            "date": newEvent.date,
+            "place": newEvent.place,
+            "title": newEvent.title,
+            ] as [String : Any]
+        refEventList.setValue(newEventData)
     }
 }

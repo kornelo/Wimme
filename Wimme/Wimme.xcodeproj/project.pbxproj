@@ -11,7 +11,10 @@
 		184CC775540628A8C4D5A681 /* Pods_Wimme.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = A158D593C768B746C8C40EE7 /* Pods_Wimme.framework */; };
 		551712D21FB7094F001E99D3 /* GoogleService-Info.plist in Resources */ = {isa = PBXBuildFile; fileRef = 551712D11FB7094E001E99D3 /* GoogleService-Info.plist */; };
 		553337201FB72AAE007AF61F /* EventsDatabase.swift in Sources */ = {isa = PBXBuildFile; fileRef = 5533371F1FB72AAE007AF61F /* EventsDatabase.swift */; };
-		553337241FB72CFE007AF61F /* Category.swift in Sources */ = {isa = PBXBuildFile; fileRef = 553337231FB72CFE007AF61F /* Category.swift */; };
+		553337241FB72CFE007AF61F /* EventProperties.swift in Sources */ = {isa = PBXBuildFile; fileRef = 553337231FB72CFE007AF61F /* EventProperties.swift */; };
+		553337261FB731E8007AF61F /* EventLocalization.swift in Sources */ = {isa = PBXBuildFile; fileRef = 553337251FB731E8007AF61F /* EventLocalization.swift */; };
+		553337281FB733E2007AF61F /* Profile.swift in Sources */ = {isa = PBXBuildFile; fileRef = 553337271FB733E2007AF61F /* Profile.swift */; };
+		5533372A1FB73D6E007AF61F /* EventCategory.swift in Sources */ = {isa = PBXBuildFile; fileRef = 553337291FB73D6E007AF61F /* EventCategory.swift */; };
 		55DAE8681FB714D00084DA7C /* RegisterDbInput.swift in Sources */ = {isa = PBXBuildFile; fileRef = 55DAE8671FB714D00084DA7C /* RegisterDbInput.swift */; };
 		9A9F6544C002BA401CBB2757 /* Pods_WimmeTests.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 64AABCF22955D848EA1FBAF4 /* Pods_WimmeTests.framework */; };
 		B8975D2F1FB6F70300FC25E6 /* AppDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = B8975D2E1FB6F70300FC25E6 /* AppDelegate.swift */; };
@@ -47,7 +50,10 @@
 		47CB30C25CD022C76E126376 /* Pods-WimmeUITests.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-WimmeUITests.debug.xcconfig"; path = "Pods/Target Support Files/Pods-WimmeUITests/Pods-WimmeUITests.debug.xcconfig"; sourceTree = "<group>"; };
 		551712D11FB7094E001E99D3 /* GoogleService-Info.plist */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text.plist.xml; path = "GoogleService-Info.plist"; sourceTree = "<group>"; };
 		5533371F1FB72AAE007AF61F /* EventsDatabase.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = EventsDatabase.swift; sourceTree = "<group>"; };
-		553337231FB72CFE007AF61F /* Category.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Category.swift; sourceTree = "<group>"; };
+		553337231FB72CFE007AF61F /* EventProperties.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = EventProperties.swift; sourceTree = "<group>"; };
+		553337251FB731E8007AF61F /* EventLocalization.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = EventLocalization.swift; sourceTree = "<group>"; };
+		553337271FB733E2007AF61F /* Profile.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Profile.swift; sourceTree = "<group>"; };
+		553337291FB73D6E007AF61F /* EventCategory.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = EventCategory.swift; sourceTree = "<group>"; };
 		55DAE8671FB714D00084DA7C /* RegisterDbInput.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = RegisterDbInput.swift; sourceTree = "<group>"; };
 		64AABCF22955D848EA1FBAF4 /* Pods_WimmeTests.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; path = Pods_WimmeTests.framework; sourceTree = BUILT_PRODUCTS_DIR; };
 		A158D593C768B746C8C40EE7 /* Pods_Wimme.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; path = Pods_Wimme.framework; sourceTree = BUILT_PRODUCTS_DIR; };
@@ -97,12 +103,15 @@
 /* End PBXFrameworksBuildPhase section */
 
 /* Begin PBXGroup section */
-		553337221FB72CC7007AF61F /* EventsCategories */ = {
+		553337221FB72CC7007AF61F /* Structs */ = {
 			isa = PBXGroup;
 			children = (
-				553337231FB72CFE007AF61F /* Category.swift */,
+				553337231FB72CFE007AF61F /* EventProperties.swift */,
+				553337251FB731E8007AF61F /* EventLocalization.swift */,
+				553337271FB733E2007AF61F /* Profile.swift */,
+				553337291FB73D6E007AF61F /* EventCategory.swift */,
 			);
-			path = EventsCategories;
+			path = Structs;
 			sourceTree = "<group>";
 		};
 		93E73588E3D3339F8160236C /* Frameworks */ = {
@@ -140,7 +149,7 @@
 		B8975D2D1FB6F70300FC25E6 /* Wimme */ = {
 			isa = PBXGroup;
 			children = (
-				553337221FB72CC7007AF61F /* EventsCategories */,
+				553337221FB72CC7007AF61F /* Structs */,
 				B8975D2E1FB6F70300FC25E6 /* AppDelegate.swift */,
 				B8975D301FB6F70300FC25E6 /* ViewController.swift */,
 				B8975D321FB6F70300FC25E6 /* Main.storyboard */,
@@ -488,7 +497,10 @@
 			buildActionMask = 2147483647;
 			files = (
 				55DAE8681FB714D00084DA7C /* RegisterDbInput.swift in Sources */,
-				553337241FB72CFE007AF61F /* Category.swift in Sources */,
+				5533372A1FB73D6E007AF61F /* EventCategory.swift in Sources */,
+				553337261FB731E8007AF61F /* EventLocalization.swift in Sources */,
+				553337241FB72CFE007AF61F /* EventProperties.swift in Sources */,
+				553337281FB733E2007AF61F /* Profile.swift in Sources */,
 				553337201FB72AAE007AF61F /* EventsDatabase.swift in Sources */,
 				B8975D311FB6F70300FC25E6 /* ViewController.swift in Sources */,
 				B8975D2F1FB6F70300FC25E6 /* AppDelegate.swift in Sources */,

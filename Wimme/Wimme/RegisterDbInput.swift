@@ -11,20 +11,17 @@ import FirebaseDatabase
 
 class RegisterDbInput {
     
-    static func addNewRecord(usrname: String,fname: String, lname: String, email: String, pass: String, confirmPass: String)
+    static func addNewRecord(usrname: String, email: String, pass: String, confirmPass: String)
     {
         var ref:DatabaseReference!
         ref = Database.database().reference()
-        if(usrname != "" && email != "" && pass != "" && confirmPass != ""){
+        if(usrname != "" && email != "" && pass != "" && confirmPass != "" && pass == confirmPass){
             let refUserList = ref.child("usersList")
-            let refUsers = refUserList.child(usrname).childByAutoId()
+            let refUsers = refUserList.child(email).childByAutoId()
             let newUserData = [
                 "username": usrname,
-                "firstname": fname,
-                "lastname": lname,
                 "email": email,
-                "password": pass,
-                "confirmPass": confirmPass
+                "password": pass
             ]
             refUsers.setValue(newUserData)
         }

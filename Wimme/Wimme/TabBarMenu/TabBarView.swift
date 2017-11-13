@@ -13,7 +13,6 @@ class TabBarView: UITabBarController {
 
     override func viewDidLoad() {
       
-    
         var tabMainView: UIViewController
         var tabSearch: UIViewController
         var tabProfile: UIViewController
@@ -29,19 +28,19 @@ class TabBarView: UITabBarController {
         
         tabMainView = mainView
         tabMainView.title = "MainView"
-        tabMainView.tabBarItem.image = UIImage(named: "1.png")
+        tabMainView.tabBarItem.image = UIImage(named: "MainIcon.pdf")
         tabSearch = search
         tabSearch.title = "Search"
-        tabSearch.tabBarItem.image = UIImage(named: "1.png")
+        tabSearch.tabBarItem.image = UIImage(named: "MainIcon.pdf")
         tabProfile = profile
         tabProfile.title = "Profile"
-        tabProfile.tabBarItem.image = UIImage(named: "1.png")
+        tabProfile.tabBarItem.image = UIImage(named: "MainIcon.pdf")
         tabSettings = setting
         tabSettings.title = "Settings"
-        tabSettings.tabBarItem.image = UIImage(named: "1.png")
+        tabSettings.tabBarItem.image = UIImage(named: "MainIcon.pdf")
         tabAddEvent = addEvent
         tabAddEvent.title = "Add Event"
-        tabAddEvent.tabBarItem.image = UIImage(named: "1.png")
+        tabAddEvent.tabBarItem.image = UIImage(named: "MainIcon.pdf")
         
         var tabs = [UIViewController]()
         tabs += [mainView, search, profile,setting,addEvent]

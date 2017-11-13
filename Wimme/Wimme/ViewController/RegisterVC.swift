@@ -15,35 +15,38 @@ class RegisterVC: UIViewController {
     @IBOutlet weak var passwordTF: UITextField!
     @IBOutlet weak var reTypePasswordTF: UITextField!
     @IBOutlet weak var informationL: UILabel!
-    var check = false
+    @IBOutlet weak var RegisterButtonOutlet: UIButton!
+    @IBOutlet weak var lastNameTF: UITextField!
+    @IBOutlet weak var firstNameTF: UITextField!
+    
+    var checkUserName = false
+    var checkEmail = false
+    var checkPassword = false
+    var checkRetypePassword = false
+    var checkFirstName = false
+    var checkLastName = false
+    
     override func viewDidLoad() {
         super.viewDidLoad()
-        
-        // Do any additional setup after loading the view.
+        RegisterButtonOutlet.isEnabled = false
     }
     
     override func didReceiveMemoryWarning() {
         super.didReceiveMemoryWarning()
-        // Dispose of any resources that can be recreated.
     }
-    
+    func EnableButton(){
+        
+        if (checkUserName == true && checkEmail == true && checkPassword == true && checkRetypePassword == true && checkFirstName == true && checkLastName == true){
+            RegisterButtonOutlet.isEnabled = true
+            print(checkRetypePassword," ", checkPassword, " ", checkEmail, " ", checkUserName)
+        }else{
+            RegisterButtonOutlet.isEnabled = false
+        }
+    }
     @IBAction func CreateAccount(_ sender: Any) {
-        
-        
+        RegisterDbInput.addNewRecord(usrname: userNameTF.text!, fname: firstNameTF.text!, lname: lastNameTF.text!, email: emailTF.text!, pass: passwordTF.text!)
     }
-    func checkTF(){
-        
-        
-        if ((userNameTF.text?.count)! >= 3)
-        {
-            check = true
-        }
-        if (emailTF.text?.contains("@"))!
-        {
-            check = true
-        }
-        
-    }
+
     @IBAction func CheckUserNameTF(_ sender: Any) {
         if ((userNameTF.text?.count)! <= 3)
         {
@@ -51,7 +54,10 @@ class RegisterVC: UIViewController {
             
         }else{
             informationL.text = ""
+            checkUserName = true
         }
+        EnableButton()
+
     }
     @IBAction func CheckEmailTF(_ sender: Any) {
         if(emailTF.text!.isValidEmail() == false)
@@ -60,15 +66,22 @@ class RegisterVC: UIViewController {
             
         }else{
             informationL.text = ""
+            checkEmail = true
         }
+        EnableButton()
+
+        
+
     }
     @IBAction func CheckPasswordTF(_ sender: Any) {
-        if(isPasswordValid(passwordTF.text!) == false)
+        if(passwordTF.text!.isPasswordValid() == false)
         {
             informationL.text = "Password must have: 8 letter, 1 capital letter, 1 small letter and 1 special sign!"
         }else{
             informationL.text = ""
+            checkPassword = true
         }
+        EnableButton()
     }
     @IBAction func CheckRetypePasswordTF(_ sender: Any) {
         
@@ -77,22 +90,36 @@ class RegisterVC: UIViewController {
             informationL.text = "Passwords must be this same!"
         }else{
             informationL.text = ""
+            checkRetypePassword = true
+            print(checkRetypePassword," ", checkPassword, " ", checkEmail, " ", checkUserName)
         }
-    }
-    func isPasswordValid(_ password : String) -> Bool{
-        let passwordTest = NSPredicate(format: "SELF MATCHES %@", "^(?=.*[a-z])(?=.*[A-Z])(?=.*[$@$#!%*?&])[A-Za-z\\d$@$#!%*?&]{8,32}")
-        return passwordTest.evaluate(with: password)
+        EnableButton()
+
     }
     
+    @IBAction func CheckFirstName(_ sender: Any) {
+        if ((firstNameTF.text?.count)! <= 3)
+        {
+            informationL.text = "First Name must 3 or more charachter!"
+            
+        }else{
+            informationL.text = ""
+            checkFirstName = true
+        }
+        EnableButton()
+    }
+    @IBAction func CheckLastName(_ sender: Any) {
+        if ((lastNameTF.text?.count)! <= 3)
+        {
+            informationL.text = "Last Name must 3 or more charachter!"
+            
+        }else{
+            informationL.text = ""
+            checkLastName = true
+        }
+        EnableButton()
+    }
+
     
 }
-extension String {
-    func isValidEmail() -> Bool {
-        // here, `try!` will always succeed because the pattern is valid
-        let regex = try! NSRegularExpression(pattern: "^[a-zA-Z0-9.!#$%&'*+/=?^_`{|}~-]+@[a-zA-Z0-9](?:[a-zA-Z0-9-]{0,61}[a-zA-Z0-9])?(?:\\.[a-zA-Z0-9](?:[a-zA-Z0-9-]{0,61}[a-zA-Z0-9])?)*$", options: .caseInsensitive)
-        return regex.firstMatch(in: self, options: [], range: NSRange(location: 0, length: count)) != nil
-    }
-    
 
-
-}

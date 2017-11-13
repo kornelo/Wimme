@@ -23,6 +23,16 @@
 		E237E90E1FB76C0600E87E85 /* MainScreenNC.swift in Sources */ = {isa = PBXBuildFile; fileRef = E237E90D1FB76C0600E87E85 /* MainScreenNC.swift */; };
 		E237E9101FB76C3500E87E85 /* ProfileNC.swift in Sources */ = {isa = PBXBuildFile; fileRef = E237E90F1FB76C3500E87E85 /* ProfileNC.swift */; };
 		E237E9121FB76C8100E87E85 /* SearchEventNC.swift in Sources */ = {isa = PBXBuildFile; fileRef = E237E9111FB76C8100E87E85 /* SearchEventNC.swift */; };
+		E237E9151FB7922F00E87E85 /* CategoryCell.swift in Sources */ = {isa = PBXBuildFile; fileRef = E237E9141FB7922F00E87E85 /* CategoryCell.swift */; };
+		E237E9171FB7925500E87E85 /* SubcategoryCell.swift in Sources */ = {isa = PBXBuildFile; fileRef = E237E9161FB7925500E87E85 /* SubcategoryCell.swift */; };
+		E288C1181FB79E0B000224C5 /* EventCell.swift in Sources */ = {isa = PBXBuildFile; fileRef = E288C1171FB79E0B000224C5 /* EventCell.swift */; };
+		E288C11A1FB7A108000224C5 /* EventVC.swift in Sources */ = {isa = PBXBuildFile; fileRef = E288C1191FB7A108000224C5 /* EventVC.swift */; };
+		E288C11D1FB873F1000224C5 /* EventProperties.swift in Sources */ = {isa = PBXBuildFile; fileRef = E288C11C1FB873F1000224C5 /* EventProperties.swift */; };
+		E288C11F1FB8745D000224C5 /* EventCategory.swift in Sources */ = {isa = PBXBuildFile; fileRef = E288C11E1FB8745D000224C5 /* EventCategory.swift */; };
+		E288C1211FB8749F000224C5 /* EventLocalization.swift in Sources */ = {isa = PBXBuildFile; fileRef = E288C1201FB8749F000224C5 /* EventLocalization.swift */; };
+		E288C1231FB874E1000224C5 /* Profile.swift in Sources */ = {isa = PBXBuildFile; fileRef = E288C1221FB874E1000224C5 /* Profile.swift */; };
+		E288C1251FB87690000224C5 /* SearchSubVC.swift in Sources */ = {isa = PBXBuildFile; fileRef = E288C1241FB87690000224C5 /* SearchSubVC.swift */; };
+		E288C1281FB87FED000224C5 /* String.swift in Sources */ = {isa = PBXBuildFile; fileRef = E288C1271FB87FED000224C5 /* String.swift */; };
 		E2CD783E1FB75BA20002BB78 /* LoginScreen.swift in Sources */ = {isa = PBXBuildFile; fileRef = E2CD78371FB75BA10002BB78 /* LoginScreen.swift */; };
 		E2CD783F1FB75BA20002BB78 /* AddEventVC.swift in Sources */ = {isa = PBXBuildFile; fileRef = E2CD78381FB75BA10002BB78 /* AddEventVC.swift */; };
 		E2CD78401FB75BA20002BB78 /* SearchEventVC.swift in Sources */ = {isa = PBXBuildFile; fileRef = E2CD78391FB75BA10002BB78 /* SearchEventVC.swift */; };
@@ -79,6 +89,16 @@
 		E237E90D1FB76C0600E87E85 /* MainScreenNC.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = MainScreenNC.swift; sourceTree = "<group>"; };
 		E237E90F1FB76C3500E87E85 /* ProfileNC.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ProfileNC.swift; sourceTree = "<group>"; };
 		E237E9111FB76C8100E87E85 /* SearchEventNC.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SearchEventNC.swift; sourceTree = "<group>"; };
+		E237E9141FB7922F00E87E85 /* CategoryCell.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = CategoryCell.swift; sourceTree = "<group>"; };
+		E237E9161FB7925500E87E85 /* SubcategoryCell.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SubcategoryCell.swift; sourceTree = "<group>"; };
+		E288C1171FB79E0B000224C5 /* EventCell.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = EventCell.swift; sourceTree = "<group>"; };
+		E288C1191FB7A108000224C5 /* EventVC.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = EventVC.swift; sourceTree = "<group>"; };
+		E288C11C1FB873F1000224C5 /* EventProperties.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = EventProperties.swift; sourceTree = "<group>"; };
+		E288C11E1FB8745D000224C5 /* EventCategory.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = EventCategory.swift; sourceTree = "<group>"; };
+		E288C1201FB8749F000224C5 /* EventLocalization.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = EventLocalization.swift; sourceTree = "<group>"; };
+		E288C1221FB874E1000224C5 /* Profile.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Profile.swift; sourceTree = "<group>"; };
+		E288C1241FB87690000224C5 /* SearchSubVC.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SearchSubVC.swift; sourceTree = "<group>"; };
+		E288C1271FB87FED000224C5 /* String.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = String.swift; sourceTree = "<group>"; };
 		E2CD78371FB75BA10002BB78 /* LoginScreen.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = LoginScreen.swift; sourceTree = "<group>"; };
 		E2CD78381FB75BA10002BB78 /* AddEventVC.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = AddEventVC.swift; sourceTree = "<group>"; };
 		E2CD78391FB75BA10002BB78 /* SearchEventVC.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = SearchEventVC.swift; sourceTree = "<group>"; };
@@ -154,6 +174,9 @@
 		B8975D2D1FB6F70300FC25E6 /* Wimme */ = {
 			isa = PBXGroup;
 			children = (
+				E288C1261FB87FC5000224C5 /* Extension */,
+				E288C11B1FB873B8000224C5 /* Structs */,
+				E237E9131FB791B100E87E85 /* TabelViewCell */,
 				E237E9081FB76B3000E87E85 /* Navigation Controllers */,
 				E2CD78471FB75C080002BB78 /* TabBarMenu */,
 				E2CD78361FB75B7B0002BB78 /* ViewController */,
@@ -199,6 +222,35 @@
 			path = "Navigation Controllers";
 			sourceTree = "<group>";
 		};
+		E237E9131FB791B100E87E85 /* TabelViewCell */ = {
+			isa = PBXGroup;
+			children = (
+				E237E9141FB7922F00E87E85 /* CategoryCell.swift */,
+				E237E9161FB7925500E87E85 /* SubcategoryCell.swift */,
+				E288C1171FB79E0B000224C5 /* EventCell.swift */,
+			);
+			path = TabelViewCell;
+			sourceTree = "<group>";
+		};
+		E288C11B1FB873B8000224C5 /* Structs */ = {
+			isa = PBXGroup;
+			children = (
+				E288C11C1FB873F1000224C5 /* EventProperties.swift */,
+				E288C11E1FB8745D000224C5 /* EventCategory.swift */,
+				E288C1201FB8749F000224C5 /* EventLocalization.swift */,
+				E288C1221FB874E1000224C5 /* Profile.swift */,
+			);
+			path = Structs;
+			sourceTree = "<group>";
+		};
+		E288C1261FB87FC5000224C5 /* Extension */ = {
+			isa = PBXGroup;
+			children = (
+				E288C1271FB87FED000224C5 /* String.swift */,
+			);
+			path = Extension;
+			sourceTree = "<group>";
+		};
 		E2CD78361FB75B7B0002BB78 /* ViewController */ = {
 			isa = PBXGroup;
 			children = (
@@ -209,6 +261,8 @@
 				E2CD783A1FB75BA20002BB78 /* RegisterVC.swift */,
 				E2CD78391FB75BA10002BB78 /* SearchEventVC.swift */,
 				E2CD783D1FB75BA20002BB78 /* SettingsVC.swift */,
+				E288C1191FB7A108000224C5 /* EventVC.swift */,
+				E288C1241FB87690000224C5 /* SearchSubVC.swift */,
 			);
 			path = ViewController;
 			sourceTree = "<group>";
@@ -532,21 +586,31 @@
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				E288C1211FB8749F000224C5 /* EventLocalization.swift in Sources */,
+				E288C1231FB874E1000224C5 /* Profile.swift in Sources */,
+				E237E9151FB7922F00E87E85 /* CategoryCell.swift in Sources */,
 				55DAE8681FB714D00084DA7C /* RegisterDbInput.swift in Sources */,
+				E288C11F1FB8745D000224C5 /* EventCategory.swift in Sources */,
 				E237E9101FB76C3500E87E85 /* ProfileNC.swift in Sources */,
 				E2CD78491FB75C1C0002BB78 /* TabBarView.swift in Sources */,
 				E2CD783E1FB75BA20002BB78 /* LoginScreen.swift in Sources */,
 				E237E90C1FB76BEC00E87E85 /* AddEventNC.swift in Sources */,
 				E2CD783F1FB75BA20002BB78 /* AddEventVC.swift in Sources */,
+				E288C11A1FB7A108000224C5 /* EventVC.swift in Sources */,
 				E2CD78421FB75BA20002BB78 /* MainScreenVC.swift in Sources */,
+				E288C1181FB79E0B000224C5 /* EventCell.swift in Sources */,
 				E237E9121FB76C8100E87E85 /* SearchEventNC.swift in Sources */,
+				E288C1281FB87FED000224C5 /* String.swift in Sources */,
+				E288C11D1FB873F1000224C5 /* EventProperties.swift in Sources */,
 				E237E90A1FB76BCD00E87E85 /* SettingsNC.swift in Sources */,
 				B8975D311FB6F70300FC25E6 /* ViewController.swift in Sources */,
 				E2CD78411FB75BA20002BB78 /* RegisterVC.swift in Sources */,
 				B8975D2F1FB6F70300FC25E6 /* AppDelegate.swift in Sources */,
+				E288C1251FB87690000224C5 /* SearchSubVC.swift in Sources */,
 				E2CD78431FB75BA20002BB78 /* ProfileScreenVC.swift in Sources */,
 				E237E90E1FB76C0600E87E85 /* MainScreenNC.swift in Sources */,
 				E2CD78401FB75BA20002BB78 /* SearchEventVC.swift in Sources */,
+				E237E9171FB7925500E87E85 /* SubcategoryCell.swift in Sources */,
 				E2CD78441FB75BA20002BB78 /* SettingsVC.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;

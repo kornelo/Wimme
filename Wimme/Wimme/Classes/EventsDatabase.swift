@@ -16,10 +16,10 @@ class EventsDatabase {
         ref = Database.database().reference()
         let refEventList = ref.child("eventsList").childByAutoId()
         let newEventData = [
-            "creator": newEvent.creator,
+            "title": newEvent.title,
             "date": newEvent.date,
             "place": newEvent.place,
-            "title": newEvent.title,
+            "creator": newEvent.creator,
             "description": newEvent.description,
             "xEventLocalization": newEvent.eventLocalization.xVariable,
             "yEventLocalization": newEvent.eventLocalization.yVariable,
@@ -32,5 +32,10 @@ class EventsDatabase {
             "categoryPicUrl": newEvent.eventCategory.pictureUrl
             ] as [String : Any]
         refEventList.setValue(newEventData)
+    }
+    
+    static func getEventInfo(eventTitle: String) -> eventCategory {
+        var ref:DatabaseReference!
+        ref = Database.database().reference()
     }
 }

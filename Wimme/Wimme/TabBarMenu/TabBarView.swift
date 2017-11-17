@@ -18,6 +18,7 @@ class TabBarView: UITabBarController {
         var tabProfile: UIViewController
         var tabSettings: UIViewController
         var tabAddEvent: UIViewController
+        var tabMap: UIViewController
     
         let storyboard = UIStoryboard(name: "Main", bundle: Bundle.main)
         let mainView : MainScreenNC  = storyboard.instantiateViewController(withIdentifier: "MainView") as! MainScreenNC
@@ -25,6 +26,7 @@ class TabBarView: UITabBarController {
         let profile : ProfileNC  = storyboard.instantiateViewController(withIdentifier: "Profile") as! ProfileNC
         let setting : SettingsNC  = storyboard.instantiateViewController(withIdentifier: "Setting") as! SettingsNC
         let addEvent : AddEventNC  = storyboard.instantiateViewController(withIdentifier: "AddEvent") as! AddEventNC
+        let map : MapNC = storyboard.instantiateViewController(withIdentifier: "Map") as! MapNC
         
         tabMainView = mainView
         tabMainView.title = "MainView"
@@ -41,9 +43,13 @@ class TabBarView: UITabBarController {
         tabAddEvent = addEvent
         tabAddEvent.title = "Add Event"
         tabAddEvent.tabBarItem.image = UIImage(named: "MainIcon.pdf")
+        tabMap = map
+        tabMap.title = "Map"
+        tabMap.tabBarItem.image = UIImage(named: "MainIcon.pdf")
+        
         
         var tabs = [UIViewController]()
-        tabs += [mainView, search, profile,setting,addEvent]
+        tabs += [mainView, map, search, profile,setting,addEvent ]
 
         viewControllers = tabs
     }

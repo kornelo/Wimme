@@ -28,8 +28,7 @@ class RegisterVC: UIViewController {
     }
     
     @IBAction func CreateAccount(_ sender: Any) {
-        
-        
+        RegisterDbInput.addNewRecord(usrname: userNameTF.text!, email: emailTF.text!, pass: passwordTF.text!, confirmPass: reTypePasswordTF.text!)
     }
     func checkTF(){
         

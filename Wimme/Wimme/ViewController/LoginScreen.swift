@@ -12,10 +12,10 @@ class LoginScreen: UIViewController {
 
     @IBOutlet weak var userNameTF: UITextField!
     @IBOutlet weak var passwordTF: UITextField!
-    
-    var userNameList = ["gagatek5", "newTest"]
+
+    /*var userNameList = ["gagatek5", "newTest"]
     var emailList = ["gagatek5@gmail.com", "newTest@gmail.com"]
-    var passwordList = ["test", "test2"];
+    var passwordList = ["test", "test2"];*/
     override func viewDidLoad() {
         super.viewDidLoad()
         // Do any additional setup after loading the view, typically from a nib.
@@ -26,7 +26,8 @@ class LoginScreen: UIViewController {
         // Dispose of any resources that can be recreated.
     }
     @IBAction func TryLogIn(_ sender: Any) {
-        for i in 0...userNameList.count - 1{
+        LogIn.login(email: userNameTF.text!, password: passwordTF.text!)
+        /*for i in 0...userNameList.count - 1{
             if(userNameTF.text == userNameList[i] || userNameTF.text == emailList[i])
             {
                 if(passwordTF.text == passwordList[i]){
@@ -48,7 +49,7 @@ class LoginScreen: UIViewController {
                 
                 self.present(alertController, animated: true, completion: nil)
             }
-        }
+        }*/
     }
     
 

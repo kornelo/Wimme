@@ -9,9 +9,14 @@
 /* Begin PBXBuildFile section */
 		0910E8E9A60E3BEF6D74CB43 /* Pods_WimmeUITests.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = D6F924CC5BA552223C350E4C /* Pods_WimmeUITests.framework */; };
 		184CC775540628A8C4D5A681 /* Pods_Wimme.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = A158D593C768B746C8C40EE7 /* Pods_Wimme.framework */; };
-		550420721FB75C0E0086584B /* Structs in Resources */ = {isa = PBXBuildFile; fileRef = 550420701FB75C0E0086584B /* Structs */; };
-		550420731FB75C0E0086584B /* Classes in Resources */ = {isa = PBXBuildFile; fileRef = 550420711FB75C0E0086584B /* Classes */; };
 		551712D21FB7094F001E99D3 /* GoogleService-Info.plist in Resources */ = {isa = PBXBuildFile; fileRef = 551712D11FB7094E001E99D3 /* GoogleService-Info.plist */; };
+		55947E491FBF72770073B96D /* RegisterDbInput.swift in Sources */ = {isa = PBXBuildFile; fileRef = 55947E471FBF72760073B96D /* RegisterDbInput.swift */; };
+		55947E4A1FBF72770073B96D /* EventsDatabase.swift in Sources */ = {isa = PBXBuildFile; fileRef = 55947E481FBF72770073B96D /* EventsDatabase.swift */; };
+		55947E501FBF72D20073B96D /* Profile.swift in Sources */ = {isa = PBXBuildFile; fileRef = 55947E4C1FBF72D20073B96D /* Profile.swift */; };
+		55947E511FBF72D20073B96D /* EventLocalization.swift in Sources */ = {isa = PBXBuildFile; fileRef = 55947E4D1FBF72D20073B96D /* EventLocalization.swift */; };
+		55947E521FBF72D20073B96D /* EventProperties.swift in Sources */ = {isa = PBXBuildFile; fileRef = 55947E4E1FBF72D20073B96D /* EventProperties.swift */; };
+		55947E531FBF72D20073B96D /* EventCategory.swift in Sources */ = {isa = PBXBuildFile; fileRef = 55947E4F1FBF72D20073B96D /* EventCategory.swift */; };
+		55947E561FBF75D20073B96D /* LogIn.swift in Sources */ = {isa = PBXBuildFile; fileRef = 55947E551FBF75D20073B96D /* LogIn.swift */; };
 		9A9F6544C002BA401CBB2757 /* Pods_WimmeTests.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 64AABCF22955D848EA1FBAF4 /* Pods_WimmeTests.framework */; };
 		B8975D2F1FB6F70300FC25E6 /* AppDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = B8975D2E1FB6F70300FC25E6 /* AppDelegate.swift */; };
 		B8975D311FB6F70300FC25E6 /* ViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = B8975D301FB6F70300FC25E6 /* ViewController.swift */; };
@@ -52,9 +57,14 @@
 		0E03D16110744BC1A45026D4 /* Pods-Wimme.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-Wimme.release.xcconfig"; path = "Pods/Target Support Files/Pods-Wimme/Pods-Wimme.release.xcconfig"; sourceTree = "<group>"; };
 		41FCFEDE7652F2B7F0584A87 /* Pods-Wimme.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-Wimme.debug.xcconfig"; path = "Pods/Target Support Files/Pods-Wimme/Pods-Wimme.debug.xcconfig"; sourceTree = "<group>"; };
 		47CB30C25CD022C76E126376 /* Pods-WimmeUITests.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-WimmeUITests.debug.xcconfig"; path = "Pods/Target Support Files/Pods-WimmeUITests/Pods-WimmeUITests.debug.xcconfig"; sourceTree = "<group>"; };
-		550420701FB75C0E0086584B /* Structs */ = {isa = PBXFileReference; lastKnownFileType = folder; path = Structs; sourceTree = "<group>"; };
-		550420711FB75C0E0086584B /* Classes */ = {isa = PBXFileReference; lastKnownFileType = folder; path = Classes; sourceTree = "<group>"; };
 		551712D11FB7094E001E99D3 /* GoogleService-Info.plist */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text.plist.xml; path = "GoogleService-Info.plist"; sourceTree = "<group>"; };
+		55947E471FBF72760073B96D /* RegisterDbInput.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = RegisterDbInput.swift; sourceTree = "<group>"; };
+		55947E481FBF72770073B96D /* EventsDatabase.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = EventsDatabase.swift; sourceTree = "<group>"; };
+		55947E4C1FBF72D20073B96D /* Profile.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Profile.swift; sourceTree = "<group>"; };
+		55947E4D1FBF72D20073B96D /* EventLocalization.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = EventLocalization.swift; sourceTree = "<group>"; };
+		55947E4E1FBF72D20073B96D /* EventProperties.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = EventProperties.swift; sourceTree = "<group>"; };
+		55947E4F1FBF72D20073B96D /* EventCategory.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = EventCategory.swift; sourceTree = "<group>"; };
+		55947E551FBF75D20073B96D /* LogIn.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = LogIn.swift; sourceTree = "<group>"; };
 		64AABCF22955D848EA1FBAF4 /* Pods_WimmeTests.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; path = Pods_WimmeTests.framework; sourceTree = BUILT_PRODUCTS_DIR; };
 		A158D593C768B746C8C40EE7 /* Pods_Wimme.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; path = Pods_Wimme.framework; sourceTree = BUILT_PRODUCTS_DIR; };
 		B11A45E0EE7666498B5D12F1 /* Pods-WimmeTests.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-WimmeTests.debug.xcconfig"; path = "Pods/Target Support Files/Pods-WimmeTests/Pods-WimmeTests.debug.xcconfig"; sourceTree = "<group>"; };
@@ -111,6 +121,28 @@
 /* End PBXFrameworksBuildPhase section */
 
 /* Begin PBXGroup section */
+		55947E4B1FBF72920073B96D /* Firebase */ = {
+			isa = PBXGroup;
+			children = (
+				55947E541FBF72DC0073B96D /* Structs */,
+				55947E481FBF72770073B96D /* EventsDatabase.swift */,
+				55947E471FBF72760073B96D /* RegisterDbInput.swift */,
+				55947E551FBF75D20073B96D /* LogIn.swift */,
+			);
+			path = Firebase;
+			sourceTree = "<group>";
+		};
+		55947E541FBF72DC0073B96D /* Structs */ = {
+			isa = PBXGroup;
+			children = (
+				55947E4F1FBF72D20073B96D /* EventCategory.swift */,
+				55947E4D1FBF72D20073B96D /* EventLocalization.swift */,
+				55947E4E1FBF72D20073B96D /* EventProperties.swift */,
+				55947E4C1FBF72D20073B96D /* Profile.swift */,
+			);
+			path = Structs;
+			sourceTree = "<group>";
+		};
 		93E73588E3D3339F8160236C /* Frameworks */ = {
 			isa = PBXGroup;
 			children = (
@@ -146,8 +178,7 @@
 		B8975D2D1FB6F70300FC25E6 /* Wimme */ = {
 			isa = PBXGroup;
 			children = (
-				550420711FB75C0E0086584B /* Classes */,
-				550420701FB75C0E0086584B /* Structs */,
+				55947E4B1FBF72920073B96D /* Firebase */,
 				E2CD78471FB75C080002BB78 /* TabBarMenu */,
 				E2CD78361FB75B7B0002BB78 /* ViewController */,
 				B8975D2E1FB6F70300FC25E6 /* AppDelegate.swift */,
@@ -333,9 +364,6 @@
 				B8975D391FB6F70300FC25E6 /* LaunchScreen.storyboard in Resources */,
 				551712D21FB7094F001E99D3 /* GoogleService-Info.plist in Resources */,
 				B8975D361FB6F70300FC25E6 /* Assets.xcassets in Resources */,
-				550420731FB75C0E0086584B /* Classes in Resources */,
-				550420721FB75C0E0086584B /* Structs in Resources */,
-				B8975D341FB6F70300FC25E6 /* Main.storyboard in Resources */,
 				E2CD78461FB75BC90002BB78 /* Main.storyboard in Resources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
@@ -364,12 +392,14 @@
 			);
 			inputPaths = (
 				"${SRCROOT}/Pods/Target Support Files/Pods-Wimme/Pods-Wimme-frameworks.sh",
+				"${BUILT_PRODUCTS_DIR}/GTMSessionFetcher/GTMSessionFetcher.framework",
 				"${BUILT_PRODUCTS_DIR}/GoogleToolboxForMac/GoogleToolboxForMac.framework",
 				"${BUILT_PRODUCTS_DIR}/leveldb-library/leveldb.framework",
 				"${BUILT_PRODUCTS_DIR}/nanopb/nanopb.framework",
 			);
 			name = "[CP] Embed Pods Frameworks";
 			outputPaths = (
+				"${TARGET_BUILD_DIR}/${FRAMEWORKS_FOLDER_PATH}/GTMSessionFetcher.framework",
 				"${TARGET_BUILD_DIR}/${FRAMEWORKS_FOLDER_PATH}/GoogleToolboxForMac.framework",
 				"${TARGET_BUILD_DIR}/${FRAMEWORKS_FOLDER_PATH}/leveldb.framework",
 				"${TARGET_BUILD_DIR}/${FRAMEWORKS_FOLDER_PATH}/nanopb.framework",
@@ -515,17 +545,23 @@
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
-				55DAE8681FB714D00084DA7C /* RegisterDbInput.swift in Sources */,
 				E2CD78491FB75C1C0002BB78 /* TabBarView.swift in Sources */,
 				E2CD783E1FB75BA20002BB78 /* LoginScreen.swift in Sources */,
 				E2CD783F1FB75BA20002BB78 /* AddEventVC.swift in Sources */,
+				55947E501FBF72D20073B96D /* Profile.swift in Sources */,
 				E2CD78421FB75BA20002BB78 /* MainScreenVC.swift in Sources */,
 				B8975D311FB6F70300FC25E6 /* ViewController.swift in Sources */,
+				55947E561FBF75D20073B96D /* LogIn.swift in Sources */,
+				55947E4A1FBF72770073B96D /* EventsDatabase.swift in Sources */,
 				E2CD78411FB75BA20002BB78 /* RegisterVC.swift in Sources */,
 				B8975D2F1FB6F70300FC25E6 /* AppDelegate.swift in Sources */,
+				55947E511FBF72D20073B96D /* EventLocalization.swift in Sources */,
 				E2CD78431FB75BA20002BB78 /* ProfileScreenVC.swift in Sources */,
+				55947E491FBF72770073B96D /* RegisterDbInput.swift in Sources */,
 				E2CD78401FB75BA20002BB78 /* SearchEventVC.swift in Sources */,
 				E2CD78441FB75BA20002BB78 /* SettingsVC.swift in Sources */,
+				55947E531FBF72D20073B96D /* EventCategory.swift in Sources */,
+				55947E521FBF72D20073B96D /* EventProperties.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};

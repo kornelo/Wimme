@@ -8,6 +8,7 @@
 
 import Foundation
 import FirebaseDatabase
+import Firebase
 import FirebaseAuth
 
 class RegisterDbInput {
@@ -24,7 +25,9 @@ class RegisterDbInput {
             Auth.auth().createUser(withEmail: email, password: pass) { (user, error) in
                 if error == nil {
                     print("You have successfully signed up")
-                    //cos tam po rejestracji
+                    let userName = usrname
+                    let ref = Database.database().reference()
+                    ref.child("users").child(user!.uid).setValue(["username": userName])
                 } else {
                     print("error w chuj")
                 }

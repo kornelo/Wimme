@@ -17,6 +17,8 @@
 		55947E521FBF72D20073B96D /* EventProperties.swift in Sources */ = {isa = PBXBuildFile; fileRef = 55947E4E1FBF72D20073B96D /* EventProperties.swift */; };
 		55947E531FBF72D20073B96D /* EventCategory.swift in Sources */ = {isa = PBXBuildFile; fileRef = 55947E4F1FBF72D20073B96D /* EventCategory.swift */; };
 		55947E561FBF75D20073B96D /* LogIn.swift in Sources */ = {isa = PBXBuildFile; fileRef = 55947E551FBF75D20073B96D /* LogIn.swift */; };
+		55ED32401FBF7FBF0040D978 /* UpdateUserProfile.swift in Sources */ = {isa = PBXBuildFile; fileRef = 55ED323F1FBF7FBF0040D978 /* UpdateUserProfile.swift */; };
+		55ED32421FBF876C0040D978 /* GetUserInfo.swift in Sources */ = {isa = PBXBuildFile; fileRef = 55ED32411FBF876C0040D978 /* GetUserInfo.swift */; };
 		9A9F6544C002BA401CBB2757 /* Pods_WimmeTests.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 64AABCF22955D848EA1FBAF4 /* Pods_WimmeTests.framework */; };
 		B8975D2F1FB6F70300FC25E6 /* AppDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = B8975D2E1FB6F70300FC25E6 /* AppDelegate.swift */; };
 		B8975D311FB6F70300FC25E6 /* ViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = B8975D301FB6F70300FC25E6 /* ViewController.swift */; };
@@ -65,6 +67,8 @@
 		55947E4E1FBF72D20073B96D /* EventProperties.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = EventProperties.swift; sourceTree = "<group>"; };
 		55947E4F1FBF72D20073B96D /* EventCategory.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = EventCategory.swift; sourceTree = "<group>"; };
 		55947E551FBF75D20073B96D /* LogIn.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = LogIn.swift; sourceTree = "<group>"; };
+		55ED323F1FBF7FBF0040D978 /* UpdateUserProfile.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = UpdateUserProfile.swift; sourceTree = "<group>"; };
+		55ED32411FBF876C0040D978 /* GetUserInfo.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = GetUserInfo.swift; sourceTree = "<group>"; };
 		64AABCF22955D848EA1FBAF4 /* Pods_WimmeTests.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; path = Pods_WimmeTests.framework; sourceTree = BUILT_PRODUCTS_DIR; };
 		A158D593C768B746C8C40EE7 /* Pods_Wimme.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; path = Pods_Wimme.framework; sourceTree = BUILT_PRODUCTS_DIR; };
 		B11A45E0EE7666498B5D12F1 /* Pods-WimmeTests.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-WimmeTests.debug.xcconfig"; path = "Pods/Target Support Files/Pods-WimmeTests/Pods-WimmeTests.debug.xcconfig"; sourceTree = "<group>"; };
@@ -128,6 +132,8 @@
 				55947E481FBF72770073B96D /* EventsDatabase.swift */,
 				55947E471FBF72760073B96D /* RegisterDbInput.swift */,
 				55947E551FBF75D20073B96D /* LogIn.swift */,
+				55ED323F1FBF7FBF0040D978 /* UpdateUserProfile.swift */,
+				55ED32411FBF876C0040D978 /* GetUserInfo.swift */,
 			);
 			path = Firebase;
 			sourceTree = "<group>";
@@ -548,6 +554,8 @@
 				E2CD78491FB75C1C0002BB78 /* TabBarView.swift in Sources */,
 				E2CD783E1FB75BA20002BB78 /* LoginScreen.swift in Sources */,
 				E2CD783F1FB75BA20002BB78 /* AddEventVC.swift in Sources */,
+				55ED32421FBF876C0040D978 /* GetUserInfo.swift in Sources */,
+				55ED32401FBF7FBF0040D978 /* UpdateUserProfile.swift in Sources */,
 				55947E501FBF72D20073B96D /* Profile.swift in Sources */,
 				E2CD78421FB75BA20002BB78 /* MainScreenVC.swift in Sources */,
 				B8975D311FB6F70300FC25E6 /* ViewController.swift in Sources */,

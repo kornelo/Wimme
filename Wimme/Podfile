@@ -9,14 +9,5 @@ target 'Wimme' do
 pod 'Firebase/Core'
 pod 'Firebase/Database'
 
-  target 'WimmeTests' do
-    inherit! :search_paths
-    # Pods for testing
-  end
-
-  target 'WimmeUITests' do
-    inherit! :search_paths
-    # Pods for testing
-  end
 
 end

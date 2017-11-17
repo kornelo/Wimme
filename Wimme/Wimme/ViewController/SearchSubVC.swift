@@ -8,8 +8,9 @@
 
 import UIKit
 
-class SearchSubVC: UIViewController {
-    var categoryImage = ["1", "2", "3", "5", "6", "7"]
+class SearchSubVC: UIViewController, UITableViewDataSource, UITableViewDelegate {
+    var categoryImage = ["1.jpg", "2.jpg", "3.jpg", "4.jpg", "5.png"]
+    var categoryName = ["Sport", "Rozrywka", "Randka","Hobby", "Inne"]
     override func viewDidLoad() {
         super.viewDidLoad()
      
@@ -30,20 +31,20 @@ class SearchSubVC: UIViewController {
     
     
     func tableView(_ tableView: UITableView, cellForRowAt indexPath: IndexPath) -> UITableViewCell {
-        let cell = tableView.dequeueReusableCell(withIdentifier: "Category", for: indexPath) as! CategoryCell
-        cell.categoryImage.image = UIImage(named: (categoryImage[indexPath.row] + ".jpg"))
-        cell.categoryLabel.text = categoryImage[indexPath.row]
+        let cell = tableView.dequeueReusableCell(withIdentifier: "Subcategory", for: indexPath) as! SubcategoryCell
+        cell.subcategoryImage.image = UIImage(named: categoryImage[indexPath.row] )
+        cell.subcategoryLabel.text = categoryName[indexPath.row]
         
         
         return cell
     }
      func tableView(_ tableView: UITableView, didSelectRowAt indexPath: IndexPath) {
-        performSegue(withIdentifier: "showSubcategory", sender: self)
+        performSegue(withIdentifier: "ShowEvent", sender: self)
         print("row selected: \(indexPath.row)")
     }
 
     override func prepare(for segue: UIStoryboardSegue, sender: Any?) {
-        if segue.identifier == "showSubcategory" {
+        if segue.identifier == "ShowEvent" {
         }
     }
     
